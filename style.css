@@ -1,4 +1,6 @@
 body {
+    min-height: 100vh;
+
     font-family: Montserrat, sans-satif;
     margin: 0;
     padding: 0;
@@ -17,7 +19,7 @@ a, a:visited, a:hover, a:active {
 
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
+    flex: 0 1 auto;
 }
 
 /* header-sub-1 contains the 'top' header, e.g. header-logo, and the three links */
@@ -25,7 +27,7 @@ a, a:visited, a:hover, a:active {
     padding: 10px 200px 0px 200px;
     display: flex;
     flex-direction: row;
-    flex: 1 1 100%;
+    flex: 0 1 100%;
     align-items: center;
     justify-content: space-between;
 }
@@ -52,7 +54,7 @@ a, a:visited, a:hover, a:active {
 
     display: flex;
     flex-direction: row;
-    flex: 1 1 100%;
+    flex: 0 1 100%;
     align-items: center;
     justify-content: space-between;
     gap: 100px;
@@ -94,11 +96,174 @@ a, a:visited, a:hover, a:active {
     justify-content: center;
 }
 
-img {
+.placeholder-img {
     height: auto;
     width: 400px;
 
     display: flex;
     flex-direction: column;
+    flex: 0 1 100%;
+}
+
+.buttons-title {
+    margin: 32px 0px 32px 0px;
+
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-list {
+    margin: 32px 300px 32px 300px;
+
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+}
+
+.button-sub-list {
+    text-align: center;
+    margin: 0px 30px 0px 30px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.side-button {
+    min-height: 200px;
+    min-width: 20px;
+    margin-bottom: 10px;
+
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid #3882F6;
+
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.button-text {
+    font-size: 18px;
+    color: #1F2937;
+
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.quote-para {
+    padding: 150px 450px 150px 450px;
+    background-color: #E5E7EB;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.para {
+    min-width: 200px;
+
+    font-size: 24px;
+    font-weight: italic;
+    color: #1F2937;
+
+    display: flex;
+}
+
+.quote {
+    margin-top: 20px;
+
+    font-size: 24px;
+    font-weight: italic;
+    color: #1F2937;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sign-up-section {
+    margin: 100px 200px 100px 200px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-banner {
+    padding: 50px 150px 50px 150px;
+    background-color: #3882F6;
+
+    display: flex;
+    flex: 1 1 auto;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign-up-left {
+    min-width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sign-up-title {
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+
+    display: flex;
+}
+
+.sign-up-text {
+    font-size: 18px;
+    color: #E5E7EB;
+
+    display: flex;
+}
+
+.sign-up-button {
+    height: 50px;
+    width: 150px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 12px;
+
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-margin {
+    background-color: white;
+}
+
+.footer {
+    padding: 25px 200px 25px 200px;
+
+    font-size: 18px;
+    color: white;
+    background-color: #1F2937;
+
+    display: flex;
+    flex-direction: column;
     flex: 1 1 100%;
+    align-items: center;
+    justify-content: center;
+
 }
