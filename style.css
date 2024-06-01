@@ -1,0 +1,104 @@
+body {
+    font-family: Montserrat, sans-satif;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+a, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #1F2937;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+/* header-sub-1 contains the 'top' header, e.g. header-logo, and the three links */
+.header-sub-1 {
+    padding: 10px 200px 0px 200px;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* header-sub-2 contains the bottom elements, all of left-elements, and the image*/
+.header-sub-2 {
+    padding: 50px 200px 100px 200px;
+
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.left-elements {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+}
+
+.top-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-header {
+    height: 40px;
+    width: 150px;
+    margin: 10px 0px 10px 0px;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 12px;
+
+    display: flex;
+    flex: 0 1 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: auto;
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+}
